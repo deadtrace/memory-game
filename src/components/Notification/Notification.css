@@ -1,0 +1,40 @@
+.notification {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: grid;
+  place-items: center;
+}
+
+.modal {
+  box-sizing: border-box;
+  border-radius: 12px;
+  height: 371px;
+  width: 685px;
+  background-color: var(--color-accent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 30px 30px;
+  font-weight: 700;
+  line-height: 50px;
+  color: white;
+}
+
+.modal__text {
+  white-space: pre-wrap;
+  text-align: center;
+}
+
+.modal__button {
+  background: #0083FC;
+  border-radius: 12px;
+  height: 64px;
+  width: 340px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}

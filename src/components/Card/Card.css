@@ -1,0 +1,17 @@
+.card {
+  width: 115px;
+  height: 115px;
+  background-color: var(--color-primary);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.card--shown {
+  background-color: var(--color-gray);
+}
+
+.card--empty {
+  cursor: default;
+  background-color: transparent;
+}

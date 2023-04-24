@@ -24,6 +24,10 @@ module.exports = {
         test: /\.(ts|tsx)$/,
         use: "ts-loader",
       },
+      {
+        test: /\.(png|svg)$/,
+        type: "asset/resource",
+      },
     ],
   },
   resolve: {
